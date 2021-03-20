@@ -10,26 +10,29 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-md">
-          <a class="navbar-brand" href="landing_page.html">Latitude Analysis</a>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="navigation">
+        <a class="navbar-brand" href="landing_page.html">Latitude Analysis</a>
+    </div>
+    
+    <div class="buttons">
+    <a button class="btn" type="button" href="comparisons.html">Comparisons</button></a>
+    <a button class="btn" type="button" href="data.html">Data</button></a>
+    </div>
 
-        <div class="d-grid gap-1 d-md-block">
-            <a button class="btn" type="button" href="comparisons.html">Comparisons</button></a>
-            <a button class="btn" type="button" href="data.html">Data</button></a>
-        </div>
-
-        <div class="dropdown">
-            <a button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Plots
-            </button></a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-              <li><a class="dropdown-item active" href="max_temp.html">Max Temperature</a></li>
-              <li><a class="dropdown-item active" href="humidity.html">Humidity</a></li>
-              <li><a class="dropdown-item active" href="cloudiness.html">Cloudiness</a></li>
-              <li><a class="dropdown-item active" href="windspeed.html">Wind Speed</a></li>
-            </ul>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+            </div>
         </div>
     </nav>
 
@@ -38,27 +41,29 @@
         <h1>Comparison: Latitude vs. X</h1>
         <p>Click any visualization below for an in depth analysis.</p>
 
+      <div class="row row-cols-4">
+      <div class="box box-1">
+          <a href="max_temp.html">Max Temperature
+          <br><img src="Resources/assets/images/Fig1.png" width="300px" height="250px"></a>
+      </div>
 
-			<div class="box box-1">
-                <a href="max_temp.html">Max Temperature
-                <br><img src="Resources/assets/images/Fig1.png" width="200px" height="150px"></a>
-            </div>
-
-            <div class="box box-2">  
-                <a href="humidity.html">Humidity
-                <br><img src="Resources/assets/images/Fig2.png" width="200px" height="150px"></a>
-            </div>
-        
-        
-            <div class="box box-3">  
-                <a href="cloudiness.html">Cloudiness
-                <br><img src="Resources/assets/images/Fig3.png" width="200px" height="150px"></a>
-            </div>
+      <div class="box box-2">  
+          <a href="humidity.html">Humidity
+          <br><img src="Resources/assets/images/Fig2.png" width="300px" height="250px"></a>
+      </div>
+    </div>
   
-            <div class="box box-4">     
-              <a href="windspeed.html">Wind Speed
-            <br><img src="Resources/assets/images/Fig4.png" width="200px" height="150px"></a>
-            </div> 
+    <div class="row row-cols-4">
+      <div class="box box-3">  
+          <a href="cloudiness.html">Cloudiness
+          <br><img src="Resources/assets/images/Fig3.png" width="300px" height="250px"></a>
+      </div>
+
+      <div class="box box-4">     
+        <a href="windspeed.html">Wind Speed
+      <br><img src="Resources/assets/images/Fig4.png" width="300px" height="250px"></a>
+      </div> 
+      </div>
     </div>
 </body>
     

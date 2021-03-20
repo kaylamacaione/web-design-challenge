@@ -1,51 +1,86 @@
-.navbar {
-   background-color: black; 
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
-.btn {
-    color:rgb(12, 11, 11)
-}
-
-.dropdown {
-    background-color:rgb(75, 128, 179)
-}
+@media (max-width: 480px){
+.navigation {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}}
 
 .container {
-    padding-top: 50px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
 }
 
 .h1 {
     font-weight: 400;
     font:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .h2 {
     font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .p {
     padding: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 .box-1 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+    padding: 10px;
+    background: rgb(204, 204, 204);
+    width: 325px;
+    height: 300px;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
   
 .box-2 {
-    top: 0;
-    right: 0;
+    padding: 10px;
+    background: rgb(204, 204, 204);
+    width: 325px;
+    height: 300px;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
   
 .box-3 {
-    right: 0;
-    bottom: 0;
+    padding: 10px;
+    background: rgb(204, 204, 204);
+    width: 325px;
+    height: 300px;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
   
 .box-4 {
-    top: 0;
-    bottom: 0;
+    padding: 10px;
+    background: rgb(204, 204, 204);
+    width: 325px;
+    height: 300px;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .table {
